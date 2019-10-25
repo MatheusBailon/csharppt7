@@ -45,7 +45,6 @@
     <Compile Include="ClasseTeste.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="ContaCorrente.cs" />
-    <Compile Include="ContaPoupanca.cs" />
     <Compile Include="Funcionarios\Auxiliar.cs" />
     <Compile Include="Funcionarios\Desenvolvedor.cs" />
     <Compile Include="Funcionarios\Designer.cs" />
