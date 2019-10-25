@@ -111,6 +111,17 @@ namespace ByteBank.Modelos
 
             contaDestino.Depositar(valor);
         }
+
+        public bool Equals(object conta)
+        {
+            ContaCorrente outraConta = conta as ContaCorrente;
+            if(outraConta == null)
+            {
+                return false;
+            }
+            return Numero == outraConta.Numero && 
+                   Agencia == outraConta.Agencia;
+        }
     }
 
 }
